@@ -1,0 +1,17 @@
+<!-- social_media_platform/templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media Platform</title>
+    <!-- Include any CSS files -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+    <!-- Include any JS files -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
